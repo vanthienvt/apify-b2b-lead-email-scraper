@@ -1,0 +1,26 @@
+{
+  "title": "B2B Website Contact & Lead Enricher Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "urls": {
+      "title": "Company Website URLs",
+      "type": "array",
+      "description": "List of company websites or domains to extract emails, phone numbers, and social links from.",
+      "editor": "stringList",
+      "default": [
+        "https://apify.com",
+        "https://stripe.com"
+      ]
+    },
+    "scanContactPages": {
+      "title": "Auto-Crawl /contact and /about Subpages",
+      "type": "boolean",
+      "description": "Automatically discover and crawl /contact, /about, and /team pages for higher email yield.",
+      "default": true
+    }
+  },
+  "required": [
+    "urls"
+  ]
+}

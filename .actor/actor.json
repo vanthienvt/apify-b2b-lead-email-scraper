@@ -1,0 +1,12 @@
+{
+  "actorSpecification": 1,
+  "name": "b2b-website-contact-lead-scraper",
+  "title": "B2B Website Email, Phone & Social Lead Enricher",
+  "description": "Extracts verified business emails, phone numbers, LinkedIn, X/Twitter, Facebook, Instagram, TikTok links, and metadata from any list of company domains.",
+  "version": "1.0",
+  "meta": {
+    "templateId": "js-start"
+  },
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile"
+}

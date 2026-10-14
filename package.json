@@ -1,0 +1,14 @@
+{
+  "name": "b2b-website-contact-lead-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Commercial Apify Actor for B2B Email, Phone & Social Profile Enrichment",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node src/main.js --test"
+  },
+  "dependencies": {
+    "apify": "^3.2.0"
+  }
+}
